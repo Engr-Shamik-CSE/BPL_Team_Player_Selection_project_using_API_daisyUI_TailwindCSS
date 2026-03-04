@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "name": "Virat Kohli",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 95,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Medium",
+    "price": "15,00,000 USD",
+    "image": "https://i.ibb.co.com/fzCXLWy4/1-virat.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Shakib Al Hasan",
+    "country": "Bangladesh",
+    "role": "All-Rounder",
+    "rating": 94,
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Left-Arm Orthodox Spin",
+    "price": "14,00,000 USD",
+    "image": "https://i.ibb.co.com/ksfpCpJt/2-shakib.png"
+  },
+  {
+    "id": 3,
+    "name": "Babar Azam",
+    "country": "Pakistan",
+    "role": "Batsman",
+    "rating": 93,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "14,50,000 USD",
+    "image": "https://i.ibb.co.com/fV84x1dn/3-babar-Azam.png"
+  },
+  {
+    "id": 4,
+    "name": "Ben Stokes",
+    "country": "England",
+    "role": "All-Rounder",
+    "rating": 92,
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast-Medium",
+    "price": "16,00,000 USD",
+    "image": "https://i.ibb.co.com/HTzr815T/4-Ben-Stokes.png"
+  },
+  {
+    "id": 5,
+    "name": "Kane Williamson",
+    "country": "New Zealand",
+    "role": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "13,50,000 USD",
+    "image": "https://i.ibb.co.com/YTfjWY8n/5-Kane-Williamson.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Joe Root",
+    "country": "England",
+    "role": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "13,80,000 USD",
+    "image": "https://i.ibb.co.com/F40zxx4L/6-Joe-Root.png"
+  },
+  {
+    "id": 7,
+    "name": "Rashid Khan",
+    "country": "Afghanistan",
+    "role": "Bowler",
+    "rating": 89,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "price": "13,00,000 USD",
+    "image": "https://i.ibb.co.com/Pvyj0yRJ/7-Rashid-khan.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Jasprit Bumrah",
+    "country": "India",
+    "role": "Bowler",
+    "rating": 92,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": "14,20,000 USD",
+    "image": "https://i.ibb.co.com/d4pgL16Y/8-Jasprit-Bumrah.jpg"
+  },
+  {
+    "id": 9,
+    "name": "MS Dhoni",
+    "country": "India",
+    "role": "Wicket-Keeper",
+    "rating": 88,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "None",
+    "price": "12,00,000 USD",
+    "image": "https://i.ibb.co.com/FkXKkqY6/9-MS-Dhoni.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Hardik Pandya",
+    "country": "India",
+    "role": "All-Rounder",
+    "rating": 87,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast-Medium",
+    "price": "12,50,000 USD",
+    "image": "https://i.ibb.co.com/ds4RzphF/10-Hardik-Pandya.jpg"
+  },
+  {
+    "id": 11,
+    "name": "David Warner",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 89,
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "price": "13,20,000 USD",
+    "image": "https://i.ibb.co.com/BVgYhKxC/11-David-Warner.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Steve Smith",
+    "country": "Australia",
+    "role": "Batsman",
+    "rating": 91,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Leg Spin",
+    "price": "14,00,000 USD",
+    "image": "https://i.ibb.co.com/7NZqHM0W/12-Steve-Smith.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Glenn Maxwell",
+    "country": "Australia",
+    "role": "All-Rounder",
+    "rating": 86,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "11,80,000 USD",
+    "image": "https://i.ibb.co.com/xS5pgLSJ/13-Glenn-Maxwell.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Trent Boult",
+    "country": "New Zealand",
+    "role": "Bowler",
+    "rating": 88,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Left-Arm Fast",
+    "price": "12,20,000 USD",
+    "image": "https://i.ibb.co.com/5gzYJbJs/14-Trent-Boult.png"
+  },
+  {
+    "id": 15,
+    "name": "Rohit Sharma",
+    "country": "India",
+    "role": "Batsman",
+    "rating": 90,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "14,50,000 USD",
+    "image": "https://i.ibb.co.com/V05vtbTK/15-Rohit-Sharma.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Quinton de Kock",
+    "country": "South Africa",
+    "role": "Wicket-Keeper",
+    "rating": 87,
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "None",
+    "price": "12,80,000 USD",
+    "image": "https://i.ibb.co.com/Xf3Qy5wN/16-Quinton-de-Kock.png"
+  },
+  {
+    "id": 17,
+    "name": "Kagiso Rabada",
+    "country": "South Africa",
+    "role": "Bowler",
+    "rating": 89,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": "13,40,000 USD",
+    "image": "https://i.ibb.co.com/nN8pZP63/17-Kagiso-Rabada.png"
+  },
+  {
+    "id": 18,
+    "name": "Mohammad Nabi",
+    "country": "Afghanistan",
+    "role": "All-Rounder",
+    "rating": 85,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "11,00,000 USD",
+    "image": "https://i.ibb.co.com/tpJ8kZqd/18-Mohammad-Nabi.png"
+  },
+  {
+    "id": 19,
+    "name": "Sunil Narine",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 84,
+    "battingStyle": "Left-Hand-Bat",
+    "bowlingStyle": "Right-Arm Off Spin",
+    "price": "10,50,000 USD",
+    "image": "https://i.ibb.co.com/RGN5gc1m/19-Sunil-Narine.png"
+  },
+  {
+    "id": 20,
+    "name": "Andre Russell",
+    "country": "West Indies",
+    "role": "All-Rounder",
+    "rating": 88,
+    "battingStyle": "Right-Hand-Bat",
+    "bowlingStyle": "Right-Arm Fast",
+    "price": "15,00,000 USD",
+    "image": "https://i.ibb.co.com/B2qmgWLq/20-Andre-Russell.jpg"
+  }
+]
