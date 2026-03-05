@@ -1,10 +1,25 @@
 import { useState } from 'react';
 import { User } from 'lucide-react';
 import { Flag } from 'lucide-react';
-
-const Player = ({player, setAvailableBalance, availableBalance }) => {
-    console.log("player component is here", player);
+import { toast } from 'react-toastify';
+const Player = ({player, setAvailableBalance, availableBalance , purchashedPlayers, setPurchasedPlayers }) => {
+    // console.log("player component is here", player);
     const [isSelected, setIsSelected] = useState(false);
+
+    const handleChoosePlayerBtn= (player) =>{
+        const playerPice = player.price.split("USD").join("").split(",").join("");
+        if(availableBalance < playerPice) 
+            return toast("Your balance is low!!!");
+
+        if(purchashedPlayers.length === 6)
+            return toast("Stop! Everyone only choose 6 players from here. ")
+
+        setIsSelected(true)
+        setAvailableBalance(availableBalance - playerPice);
+        setPurchasedPlayers( [...purchashedPlayers, player] ); // Must add [] sybol as it's an array of objects
+
+        toast(`player ${player.name} is purchased..❤️`)
+    }
 
     return (        
         <div className=''>
@@ -48,13 +63,7 @@ const Player = ({player, setAvailableBalance, availableBalance }) => {
                         <div>
                             <button 
                             disabled={isSelected} 
-                            onClick={()=>{
-                                if(availableBalance < player.price.split("USD").join("").split(",").join("")) 
-                                    return alert("Your balance is low!!!")
-
-                                setIsSelected(true)
-                                setAvailableBalance(availableBalance - player.price.split("USD").join("").split(",").join("")) 
-                            }} 
+                            onClick={()=>{ handleChoosePlayerBtn(player)}} 
                             className="btn text-xs md:text-sm "> { isSelected===true ? "Selected":"Choose Player"}</button>
                         </div>
                     </div>
